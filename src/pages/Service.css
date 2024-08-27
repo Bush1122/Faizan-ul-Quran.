@@ -1,0 +1,197 @@
+
+  
+  .hr-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers the items horizontally */
+    justify-content: center; /* Centers the items vertically */
+  }
+  
+  .sec-title-inner {
+    height: 3px; 
+    width: 70px; 
+    background-color: gold; /* Updated color to match the theme */
+    border: none; 
+    margin-top: 0px;
+    position: relative;
+    text-align: center; /* Center text if there is any */
+  }
+
+  .serv-box {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .icon {
+    font-size: 2.5rem;
+    color: #ffc107;
+    margin-bottom: 15px;
+  }
+  
+  .serv-info h4 {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .serv-info p {
+    color: #6c757d;
+  }
+  
+
+  .service_main-section {
+    background-image: url('../images/hearts.jpg'); /* Path to your background image */
+    background-color: rgba(2, 2, 2, 0.88); /* Adjust opacity for overlay */
+    background-size: cover; /* Ensure the background image covers the container */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay; /* Blend the background color with the image */
+    min-height: 500px; /* Set a minimum height to ensure content is visible */
+    padding: 60px 0; /* Add padding for spacing */
+}
+.main-section-service{
+  background-image: url('../images/resources/quran.png');
+  background-color: rgba(8, 8, 8, 0.90); 
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay; 
+  min-height: 500px; 
+  padding: 60px 0; 
+
+}
+
+  
+   
+  /* Service.css */
+
+/* For the main top about data
+.main-top-about-data {
+  padding: 20px;
+  background-size: cover;
+  background-position: center;
+} */
+
+
+
+/* Adjusting carousel text and buttons */
+.carousel-caption {
+  top: 50%;
+  transform: translateY(-50%);
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.carousel-title, .carousel-subtitle {
+  font-size: 1.5rem; /* Adjust as needed */
+}
+
+.carousel-title {
+  font-size: 2rem; /* Adjust as needed */
+}
+
+.thm-btn {
+  font-size: 1rem;
+  padding: 10px 20px;
+}
+
+.sec-title-inner {
+  width: 80px;
+  border: 2px solid gold;
+  margin: 0 auto;
+}
+
+.serv-box {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.icon {
+  font-size: 2rem;
+  margin-right: 15px;
+  color: gold;
+}
+
+.serv-info h4 {
+  font-size: 1.2rem;
+}
+
+.serv-info p {
+  font-size: 1rem;
+}
+
+/* Progress bar support section */
+.suprt-prgrs {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.suprt-prg {
+  background-color: gold;
+  height: 5px;
+  margin-bottom: 10px;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .carousel-caption {
+    top: 60%;
+    transform: translateY(-50%);
+  }
+
+  .carousel-title, .carousel-subtitle {
+    font-size: 1.5rem;
+  }
+
+  .carousel-title {
+    font-size: 1.8rem;
+  }
+
+  .text-center h1 {
+    font-size: 1.8rem;
+  }
+
+  .text-center h2 {
+    font-size: 1.5rem;
+  }
+
+  .serv-box {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .icon {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+
+  .service_main-section .col-4 {
+    display: none;
+  }
+
+  .service_main-section .col-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .carousel-title {
+    font-size: 1.5rem;
+  }
+
+  .carousel-subtitle {
+    font-size: 1.2rem;
+  }
+
+  .icon {
+    font-size: small;
+  }
+}
+
+ 

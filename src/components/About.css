@@ -1,0 +1,39 @@
+/* CardSection.css */
+
+.card-hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+  }
+  
+  .card-hover:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #f8f9fa; /* Light grey background on hover */
+  }
+  
+  .icon-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .card-icon {
+    font-size: 2rem;
+    color: #ffd700; /* Bootstrap golden color for icons */
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+  }
+  
+  /* Hover effect for card background */
+  .card-hover:hover .card-icon {
+    color: #ffd700; /* Golden color for icon on hover */
+  }
+  

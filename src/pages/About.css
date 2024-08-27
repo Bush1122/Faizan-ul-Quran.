@@ -1,0 +1,301 @@
+
+.main-top-about-data{
+  background-color: black;
+}
+
+.main-section-about{
+  background-image: url('../images/resources/Itibah.jpg');
+  background-color: rgba(8, 8, 8, 0.70); 
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay; 
+  min-height: 500px; 
+  padding: 60px 0; 
+
+}
+
+.main-container-about {
+  background-image: url('../images/banner.jpg');
+  background-color: rgba(2, 2, 2, 0.88); 
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay; 
+  min-height: 500px; 
+  padding: 60px 0; 
+}
+
+.sec-title-inner-about {
+  height: 3px; 
+  width: 70px; 
+  background-color: gold; 
+  border: none; 
+  margin: 20px 0;
+  position: relative;
+  text-align: left;
+}
+
+.sec-title-inner-aboutr::after {
+  content: '';
+  display: block;
+  width: 100%; 
+  height: 6px; 
+  background-color: rgba(255, 215, 0, 0.5); 
+  position: absolute; 
+  top: -3px; 
+  left: 0;
+  z-index: -1; 
+  transform: scaleX(0); 
+  transform-origin: left; 
+  transition: transform .25s linear; 
+}
+
+.sec-title-inner-about:hover::after {
+  transform: scaleX(1); 
+}
+
+.thm-btn {
+  background-color: gold; 
+  color: black; 
+  padding: 10px 20px; 
+  text-decoration: none; 
+  font-weight: bold;
+  transition: background-color 0.3s ease; 
+  border-radius: 40px;
+}
+
+.thm-btn:hover {
+  background-color: darkorange; 
+  color: white; 
+}
+
+
+
+
+
+
+.carousel-title {
+  font-size: 2.5rem;
+}
+
+.carousel-subtitle {
+  font-size: 1.5rem;
+}
+
+.carousel-verse {
+  font-size: 1.25rem;
+}
+
+@media (max-width: 768px) {
+  .carousel-title {
+    font-size: 2rem;
+  }
+
+  .carousel-subtitle {
+    font-size: 1.25rem;
+  }
+
+  .carousel-verse {
+    font-size: 1rem;
+  }
+
+  .main-section-about {
+    padding: 50px 15px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: medium;
+  }
+
+  h2 {
+    font-size: medium;
+  }
+  h3 {
+    font-size: medium;
+  }
+  h4{
+    font-size: medium;
+  }
+  h5{
+    font-size: medium;
+  }
+  h6 {
+    font-size: medium;
+  }
+  p {
+    font-size: medium;
+  }
+  .display-1{
+    font-size: medium;
+  }
+  .display-2
+   {
+    font-size: medium;
+  }
+  .thm-btn {
+    font-size: medium;
+    padding: 7px 6px;
+}
+.main-container-about {
+  padding: 30px 0; 
+}
+
+.sec-title-inner {
+  width: 50px; 
+}
+
+.col-6 {
+  width: 100%; 
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 1.75rem;
+}
+
+p {
+  font-size: 1rem; 
+}
+
+}
+
+  @media (max-width: 500px) {
+    h1 {
+      font-size:small;
+    }
+  
+    h2 {
+      font-size:small;
+    }
+    h3 {
+      font-size: medium;
+    }
+    h4{
+      font-size:small;
+    }
+    h5{
+      font-size: medium;
+    }
+    h6 {
+      font-size:small;
+    }
+    p {
+      font-size:small;
+    }
+    .display-1{
+      font-size:small;
+    }
+    .display-2
+     {
+      font-size:small;
+    }
+    .thm-btn {
+      font-size: small;
+      padding: 7px 6px;
+  }
+  }
+
+  /* Main Section */
+.main-section-about {
+  background-image: url('../images/resources/Itibah.jpg');
+  background-color: rgba(8, 8, 8, 0.70); 
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay; 
+  min-height: 500px; 
+  padding: 60px 15px;
+}
+
+/* Carousel Title, Subtitle, and Verse */
+.carousel-title {
+  font-size: 2.5rem;
+}
+
+.carousel-subtitle {
+  font-size: 1.5rem;
+}
+
+.carousel-verse {
+  font-size: 1.25rem;
+}
+
+/* Button Styling */
+.thm-btn {
+  background-color: gold; 
+  color: black; 
+  padding: 10px 20px; 
+  text-decoration: none; 
+  font-weight: bold;
+  transition: background-color 0.3s ease; 
+  border-radius: 40px;
+}
+
+.thm-btn:hover {
+  background-color: darkorange; 
+  color: white; 
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .carousel-title {
+    font-size: 2rem;
+  }
+
+  .carousel-subtitle {
+    font-size: 1.25rem;
+  }
+
+  .carousel-verse {
+    font-size: 1rem;
+  }
+
+  .main-section-about {
+    padding: 50px 15px;
+  }
+
+  h1, h2, h3, h4, h5, h6, p, .display-1, .display-2 {
+    font-size: medium;
+  }
+
+  .thm-btn {
+    font-size: medium;
+    padding: 7px 6px;
+  }
+  
+  .main-container-about {
+    padding: 30px 0; 
+  }
+
+  .sec-title-inner {
+    width: 50px; 
+  }
+
+  .col-6 {
+    width: 100%; 
+    margin-top: 20px;
+  }
+
+  p {
+    font-size: 1rem; 
+  }
+}
+
+@media (max-width: 500px) {
+  h1, h2, h4, h5, h6, p, .display-1, .display-2 {
+    font-size: small;
+  }
+
+  h3 {
+    font-size: medium;
+  }
+
+  .thm-btn {
+    font-size: small;
+    padding: 7px 6px;
+  }
+}

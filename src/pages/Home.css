@@ -1,0 +1,129 @@
+
+.home-background-main{
+  background-color:#120e0d;
+}
+
+.carousel-item {
+    color: #fff; 
+  }
+  
+  .carousel-caption {
+    text-align: center;
+  }
+  
+  .carousel-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #fff; 
+    margin-bottom: 0.5rem;
+  }
+  
+  .carousel-subtitle {
+    font-size: 1.5rem;
+    color: #fff; 
+    margin-bottom: 1rem;
+  }
+  
+  .carousel-verse {
+    font-size: 1rem;
+    color: #fff; /* White text */
+    margin-bottom: 1rem;
+  }
+  
+  .thm-btn {
+    color: #fff; 
+    background-color: #ffc107; 
+    border-radius: 40px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .thm-btn:hover {
+    background-color: #e0a800; 
+  }
+  
+  .container-fluid {
+    padding: 0;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  /* General styles for carousel indicators */
+  .carousel-indicators {
+    bottom: 10px; 
+  }
+  
+  .carousel-indicators li {
+    background-color: white; 
+    border-radius: 50%; 
+    width: 12px; 
+    height: 12px;
+    border: 1px solid white; }
+  
+  .carousel-indicators .active {
+    background-color: #ffc107; 
+  }
+  
+  
+  .carousel-title, .carousel-subtitle, .carousel-verse {
+    color: white;
+  }
+  
+  
+  .carousel-indicators {
+    bottom: 20px; }
+  
+  .carousel-indicators li {
+    background-color: white; 
+    border-radius: 50%;
+    width: 10px; 
+    height: 10px; 
+  }
+  
+  .carousel-indicators .active {
+    background-color: #ffc107; 
+  }
+  
+  /* General styles for carousel controls */
+  .carousel-control-prev, .carousel-control-next {
+    width: 5%; 
+  }
+  
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: white; 
+    border-radius: 50%; 
+    width: 40px;
+    height: 40px; 
+    background-size: 50%; 
+  }
+  
+  .carousel-control-prev:hover .carousel-control-prev-icon,
+  .carousel-control-next:hover .carousel-control-next-icon {
+    background-color: #ffc107; 
+  }
+  
+  .carousel-control-prev-icon {
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIj4KICA8Y2lyY2xlIGN4PSI1MCIgY3k9IjUwIiByPSI1MCIgc3Ryb2tlLXdpZHRoPSIxMCIgc3Ryb2tlLWxpbmUtY2hhcmFjdGVyPSJyb3VuZCIgc3Ryb2tlLWxpbmUtb3BhY2l0eT0iMCIvPjwvc3ZnPg=='); /* Base64 for left arrow */
+  }
+  
+  .carousel-control-next-icon {
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIj4KICA8Y2lyY2xlIGN4PSI1MCIgY3k9IjUwIiByPSI1MCIgc3Ryb2tlLXdpZHRoPSIxMCIgc3Ryb2tlLWxpbmUtY2hhcmFjdGVyPSJyb3VuZCIgc3Ryb2tlLWxpbmUtb3BhY2l0eT0iMCIvPjwvc3ZnPg=='); /* Base64 for right arrow */
+  }
+  
+
+.homeicons-background {
+      background-image: url('../images/resources/quran.jpg'); 
+     
+      background-color: rgba(8, 8, 8, .89); 
+      background-size: cover; 
+      background-position: center;
+      background-repeat: no-repeat;
+      background-blend-mode: overlay; 
+      min-height: 500px; 
+      padding: 60px 0; 
+}
+  

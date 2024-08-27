@@ -1,0 +1,85 @@
+
+.icon-wrapper.icon-circle {
+  background-color: #f8f9fa; /* Light background color */
+  border-radius: 50%;        /* Makes the icon wrapper circular */
+  padding: 20px;             /* Padding around the icon */
+  display: inline-block;     /* Ensure it's displayed inline-block */
+  margin-bottom: 15px;       /* Space below the icon */
+}
+
+.fa-icon {
+  color: #ffc107;            /* Bootstrap's yellow color */
+  font-size: 3rem;           /* Font size of the icon, adjust as needed */
+}
+
+.card-hover:hover {
+  transform: translateY(-10px);  /* Moves the card up on hover */
+  transition: all 0.3s ease;     /* Smooth transition effect */
+}
+
+.card-hover {
+  border: none;               /* Removes default border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+  transition: transform 0.3s; /* Smooth transition for hover effect */
+}
+
+.card-title {
+  font-weight: 600;           /* Bold card title */
+}
+
+.card-text {
+  color: #6c757d;             /* Bootstrap's muted text color */
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .container-fluid {
+    padding: 0 10px;
+  }
+
+  .icon-wrapper {
+    font-size: 2rem;
+  }
+
+  .card-title {
+    font-size: 1.3rem;
+  }
+
+  .card-text {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .container-fluid {
+    padding: 0 5px;
+  }
+
+  .icon-wrapper {
+    font-size: 1.8rem;
+  }
+
+  .card-title {
+    font-size: 1.2rem;
+  }
+
+  .card-text {
+    font-size: 0.85rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
